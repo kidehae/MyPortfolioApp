@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portfolio - Personal Bootstrap Template</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <title>Portfolio - Web Development Projects</title>
+    <meta
+      name="description"
+      content="Showcase of my web development projects"
+    />
+    <meta name="keywords" content="web development, portfolio, projects" />
 
     <!-- Favicons -->
     <link href="assets/img/favicon (2).webp" rel="icon" />
@@ -30,31 +33,19 @@
     />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
+    <!-- Removed glightbox CSS as it might interfere with links -->
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: Personal
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Updated: Nov 04 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
   </head>
 
   <body class="portfolio-page">
+    <!-- Header remains the same -->
     <header id="header" class="header d-flex align-items-center fixed-top">
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
       >
         <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
           <h1 class="sitename">Portfolio</h1>
         </a>
 
@@ -72,17 +63,17 @@
     </header>
 
     <main class="main">
-      <!-- Page Title -->
+      <!-- Page Title remains the same -->
       <div class="page-title" data-aos="fade">
         <div class="heading">
           <div class="container">
             <div class="row d-flex justify-content-center text-center">
               <div class="col-lg-8">
-                <h1>Portfolio</h1>
+                <h1>My Projects</h1>
                 <p class="mb-0">
-                  Welcome to my portfolio! I’m a passionate web developer and
-                  photographer, blending creativity and technology to build
-                  beautiful digital experiences and capture impactful moments.
+                  Welcome to my portfolio! I'm a passionate web developer
+                  specializing in creating interactive and responsive web
+                  applications. Below are some of my recent projects.
                 </p>
               </div>
             </div>
@@ -97,9 +88,8 @@
           </div>
         </nav>
       </div>
-      <!-- End Page Title -->
 
-      <!-- Portfolio Section -->
+      <!-- Portfolio Section - Modified to ensure links work -->
       <section id="portfolio" class="portfolio section">
         <div class="container">
           <div
@@ -114,211 +104,236 @@
               data-aos-delay="100"
             >
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-product">Pictures</li>
+              <li data-filter=".filter-web">Web Apps</li>
+              <li data-filter=".filter-clone">Clones</li>
             </ul>
-            <!-- End Portfolio Filters -->
 
             <div
               class="row gy-4 isotope-container"
               data-aos="fade-up"
               data-aos-delay="200"
             >
+              <!-- AI Poem Generator -->
               <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web"
               >
                 <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/pro1.png"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <div class="project-link-wrapper">
+                    <a
+                      href="https://aipoemwriter.netlify.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      <img
+                        src="assets/img/Aipoemgenerated.png"
+                        class="img-fluid"
+                        alt="AI Poem Generator"
+                      />
+                    </a>
+                  </div>
                   <div class="portfolio-info">
-                    <h4>App 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>AI Poem Generator</h4>
+                    <p>An interactive web app that generates poems using AI</p>
                     <a
-                      href="assets/img/portfolio/pro2.png"
-                      title="App 1"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                      href="https://aipoemwriter.netlify.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-primary"
+                      >Visit Project</a
+                    >
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
 
+              <!-- World Clock -->
               <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web"
               >
                 <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/pro 3.png"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <div class="project-link-wrapper">
+                    <a
+                      href="https://myworldclockshiganapp.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      <img
+                        src="assets/img/shigan.png"
+                        class="img-fluid"
+                        alt="World Clock"
+                      />
+                    </a>
+                  </div>
                   <div class="portfolio-info">
-                    <h4>Product 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>World Clock</h4>
+                    <p>
+                      A timezone converter showing current times around the
+                      world
+                    </p>
                     <a
-                      href="assets/img/portfolio/pro4"
-                      title="Product 1"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                      href="https://myworldclockshiganapp.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-primary"
+                      >Visit Project</a
+                    >
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
 
+              <!-- Weather App -->
               <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web"
               >
                 <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/photo_1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <div class="project-link-wrapper">
+                    <a
+                      href="https://myfirstshecodesweatherappp.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      <img
+                        src="assets/img/weather.png"
+                        class="img-fluid"
+                        alt="Weather App"
+                      />
+                    </a>
+                  </div>
                   <div class="portfolio-info">
-                    <h4>Branding 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>Weather App</h4>
+                    <p>Real-time weather information with forecast</p>
                     <a
-                      href="assets/img/portfolio/photo_2.jpg"
-                      title="Branding 1"
-                      data-gallery="portfolio-gallery-branding"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                      href="https://myfirstshecodesweatherappp.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-primary"
+                      >Visit Project</a
+                    >
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
 
+              <!-- Netflix Clone -->
               <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-clone"
               >
                 <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/photo_3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <div class="project-link-wrapper">
+                    <a
+                      href="https://meazaaanetflex.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      <img
+                        src="assets/img/netflix.png"
+                        class="img-fluid"
+                        alt="Netflix Clone"
+                      />
+                    </a>
+                  </div>
                   <div class="portfolio-info">
-                    <h4>Books 1</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>Netflix Clone</h4>
+                    <p>A responsive clone of the Netflix streaming platform</p>
                     <a
-                      href="assets/img/portfolio/photo_4.jpg"
-                      title="Branding 1"
-                      data-gallery="portfolio-gallery-book"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                      href="https://meazaaanetflex.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-primary"
+                      >Visit Project</a
+                    >
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
 
+              <!-- Amazon Clone -->
               <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-clone"
               >
                 <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/photo_5.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <div class="project-link-wrapper">
+                    <a
+                      href="https://amazzaonclone.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      <img
+                        src="assets/img/amazon.png"
+                        class="img-fluid"
+                        alt="Amazon Clone"
+                      />
+                    </a>
+                  </div>
                   <div class="portfolio-info">
-                    <h4>App 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>Amazon Clone</h4>
+                    <p>E-commerce platform inspired by Amazon</p>
                     <a
-                      href="assets/img/portfolio/photo_6.jpg"
-                      title="App 2"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                      href="https://amazzaonclone.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-primary"
+                      >Visit Project</a
+                    >
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
 
+              <!-- Todo List App -->
               <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web"
               >
                 <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/photo_7.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <div class="project-link-wrapper">
+                    <a
+                      href="https://myytodolistapp.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      <img
+                        src="assets/img/todolist.png"
+                        class="img-fluid"
+                        alt="Todo List App"
+                      />
+                    </a>
+                  </div>
                   <div class="portfolio-info">
-                    <h4>Product 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <h4>Todo List App</h4>
+                    <p>Task management application with CRUD functionality</p>
                     <a
-                      href="assets/img/portfolio/photo_8.jpg"
-                      title="Product 2"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="portfolio-details.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
+                      href="https://myytodolistapp.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-primary"
+                      >Visit Project</a
+                    >
                   </div>
                 </div>
               </div>
-              <!-- End Portfolio Item -->
             </div>
-            <!-- End Portfolio Container -->
           </div>
         </div>
       </section>
-      <!-- /Portfolio Section -->
     </main>
 
+    <!-- Footer remains the same -->
     <footer id="footer" class="footer dark-background">
       <div class="container">
         <h3 class="sitename">Portfolio</h3>
         <p>
-          Crafting digital experiences and capturing timeless moments. As a
-          passionate web developer and photographer, I blend creativity with
-          technology to bring ideas to life. Let's connect and create something
-          amazing!
+          Engineering robust digital solutions and capturing impactful moments.
+          As a passionate full-stack developer (React.js/Node.js) and creative
+          professional, I architect seamless web applications while maintaining
+          an artistic eye for detail. I specialize in building performant,
+          scalable systems with clean code - from dynamic front-end interfaces
+          to RESTful APIs and database architecture. My unique blend of
+          technical expertise and visual storytelling enables me to create
+          products that are both functionally excellent and aesthetically
+          compelling. Let's collaborate to turn your vision into a high-quality
+          digital reality
         </p>
         <div class="social-links d-flex justify-content-center">
           <a href="https://x.com/meaza_mula89381"
@@ -339,10 +354,6 @@
             <span>All Rights Reserved</span>
           </div>
           <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
@@ -354,8 +365,9 @@
       href="#"
       id="scroll-top"
       class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    >
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
 
     <!-- Preloader -->
     <div id="preloader"></div>
@@ -368,11 +380,40 @@
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <!-- Removed glightbox JS as it might interfere with links -->
     <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Add this custom CSS to ensure links work properly -->
+    <style>
+      .project-link-wrapper {
+        position: relative;
+        display: block;
+        overflow: hidden;
+      }
+      .project-link {
+        display: block;
+        position: relative;
+      }
+      .project-link::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+      }
+      .portfolio-content {
+        position: relative;
+      }
+      .portfolio-info {
+        position: relative;
+        z-index: 2;
+      }
+    </style>
   </body>
 </html>
